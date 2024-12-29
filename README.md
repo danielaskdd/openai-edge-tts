@@ -55,6 +55,8 @@ DEFAULT_SPEED=1.2
 DEFAULT_LANGUAGE=en-US
 
 REQUIRE_API_KEY=True
+REMOVE_FILTER=False
+EXPAND_API=True
 ```
 
 Or, copy the default `.env.example` with the following:
@@ -137,6 +139,8 @@ DEFAULT_SPEED=1.2
 DEFAULT_LANGUAGE=en-US
 
 REQUIRE_API_KEY=True
+REMOVE_FILTER=False
+EXPAND_API=True
 ```
 
 ### 5. Run the Server
@@ -248,7 +252,7 @@ Below, you can see a screenshot of the correct configuration for using this proj
 If you're running both Open WebUI and this project in Docker, the API endpoint URL is probably `http://host.docker.internal:5050/v1`
 
 > [!NOTE]
-> View the official docs for [Open WebUI integration with OpenAI Edge TTS](https://docs.openwebui.com/tutorials/integrations/openai-edge-tts-integration)
+> View the official docs for [Open WebUI integration with OpenAI Edge TTS](https://docs.openwebui.com/tutorials/text-to-speech/openai-edge-tts-integration)
 
 # AnythingLLM
 
